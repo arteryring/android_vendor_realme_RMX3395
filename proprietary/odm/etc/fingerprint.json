@@ -1,0 +1,18 @@
+[
+    {
+        "project":"21711",
+        "name":"default",
+        "product":"RMX3395",
+        "device":"RE879EL1",
+        "model":"RMX3395",
+        "first_api_level":"31",
+        "brand":"realme",
+        "manufacturer":"realme",
+        "base_oses": [
+            {
+              "13": "realme/RMX3395/RE879EL1:13/TP1A.220905.001/S.157a1d8-1:user/release-keys"
+            }
+        ]
+    }
+
+]
