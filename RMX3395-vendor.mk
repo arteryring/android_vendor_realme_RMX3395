@@ -8,8 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 ODM_MANIFEST_FILES += \
     vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
     vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
-    vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
 
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX3395/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
@@ -1621,8 +1619,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3395/proprietary/odm/etc/ueventd.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.reserve.rc \
     vendor/realme/RMX3395/proprietary/odm/etc/ueventd.wifi.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.wifi.rc \
     vendor/realme/RMX3395/proprietary/odm/etc/vendor_wifi_rus_config.xml:$(TARGET_COPY_OUT_ODM)/etc/vendor_wifi_rus_config.xml \
-    vendor/realme/RMX3395/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/realme/RMX3395/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
     vendor/realme/RMX3395/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
     vendor/realme/RMX3395/proprietary/odm/etc/wifi/wifi_active_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_active_channel.cfg \
     vendor/realme/RMX3395/proprietary/odm/etc/wifi/wifi_passive_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_passive_channel.cfg \
