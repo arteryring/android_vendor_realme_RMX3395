@@ -6,8 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX3395
 
 ODM_MANIFEST_FILES += \
-    vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
-    vendor/realme/RMX3395/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/realme/RMX3395/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX3395/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
